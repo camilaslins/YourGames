@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Games - Sua loja de jogos online</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-mouse"></i> Your Games</a>
+
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Categorias">Categorias</a>
+        <a href="#Sobre">Sobre</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="pesquise aqui...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/imagecart-img-1.png" alt="">
+            <div class="content">
+                <h3>The Quarry</h3>
+                <span class="price">R$ 349,90</span> 
+                <span class="quantity">qtd : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/imagecart-img-2.png.webp" alt="">
+            <div class="content">
+                <h3>Pokemon - silver edition</h3>
+                <span class="price">$259,90</span>
+                <span class="quantity">qtd : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/imagecart-img-3.png.webp" alt="">
+            <div class="content">
+                <h3>Spider Man: Miles Morales</h3>
+                <span class="price">R$199,90</span>
+                <span class="quantity">qtd : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : 809,7 </div>
+        <a href="#" class="btn">finalizar</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>faça seu login</h3>
+        <input type="email" placeholder="seu email" class="box">
+        <input type="password" placeholder="sua senha" class="box">
+        <p>esqueci minha senha <a href="#">clique aqui</a></p>
+        <p>não possuo conta <a href="#">crie agora</a></p>
+        <input type="submit" value="login" class="btn">
+    </form>
+
+</header>
+
+<!-- home -->
+
+<main class="conteudo">
+    <section class="conteudo-principal">
+       <div class="conteudo-principal-escrito">
+          <h1 class="conteudo-principal-escrito-titulo">Confira o mais novo lançamento</h1>
+          <h2 class="conteudo-principal-escrito-subtitulo">O estúdio Netmarble convida você a conhecer Ni no Kuni: Cross Worlds, um MMORPG disponível para PC, iOS e Android!</h2>
+          <button class="conteudo-principal-escrito-botao">Saiba mais</button>
+       </div>
+       <iframe class="conteudo-principal-video" src="https://www.youtube.com/embed/nZwEGP2t2Vw" title="Ni no Kuni: Cross Worlds Official Trailer" frameborder="0" width="620" height="500" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </section>
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> jogos <span>populares</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-1.png.webp" alt="">
+                <h3>World of Warcraft</h3>
+                <div class="price"> R$32,00 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-2.png.webp" alt="">
+                <h3>Super Mario Party</h3>
+                <div class="price"> R$129,99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png.webp" alt="">
+                <h3>Detroit: Become Human</h3>
+                <div class="price"> R$134,99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png.webp" alt="">
+                <h3>Super Monkey Ball Banana</h3>
+                <div class="price"> R$97,45</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-5.png.webp" alt="">
+                <h3>The Last Of Us II</h3>
+                <div class="price"> R$99,90</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-6.png.webp" alt="">
+                <h3>Little Nightmares II</h3>
+                <div class="price"> R$249,90 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-7.png.webp" alt="">
+                <h3>Tomb Raider</h3>
+                <div class="price"> R$34,99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-8.png.webp" alt="">
+                <h3>Red Dead Remdenption II</h3>
+                <div class="price"> R$239,00 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- categories section starts  -->
+
+<section class="categories" id="Categorias">
+
+    <h1 class="heading"> algumas <span>categorias</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/cat-1.png.png" alt="">
+            <h3>Terror & Suspense</h3>
+            <p>descontos de até 45%</p>
+            <a href="#" class="btn">ver mais</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.png.jpg" alt="">
+            <h3>Aventura Narrativa</h3>
+            <p>descontos de até 30%</p>
+            <a href="#" class="btn">ver mais</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-3.png.webp" alt="">
+            <h3>FPS</h3>
+            <p>descontos de até 30%</p>
+            <a href="#" class="btn">ver mais</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-4.png.webp" alt="">
+            <h3>Ação</h3>
+            <p>descontos de até 15% </p>
+            <a href="#" class="btn">ver mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- features -->
+
+<section class="features" id="Sobre">
+
+    <h1 class="heading"> POR QUE NOS ESCOLHER? </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3>compras mais fáceis</h3>
+            <p>Paguamento disponível em até três formas de pagamento!</p>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>promoções exclusivas</h3>
+            <p>Cupons especiais disponíveis <br> todos os meses!</p>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>atualizações automáticas</h3>
+            <p>O YourGames baixará atualizações automaticamente para os seus jogos segundo as configurações de downloads!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer-->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Your Games <i class="fas fa-mouse"></i> </h3>
+            <p>Sua loja de jogos online</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contato</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> camilalins.ti@gmail.com </a>
+        </div>
+
+        <div class="box">
+            <h3>Importante</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> sobre </a>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>se inscreva para receber novas promoções</p>
+            <input type="email" placeholder="seu email" class="email">
+            <input type="submit" value="inscrever" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Camila </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
